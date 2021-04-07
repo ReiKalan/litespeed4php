@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ${LSPHP_VERSION}-intl \
     && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 7080 8088
+EXPOSE 10070 10080
 
 ENV PATH $PATH:/usr/local/lsws/lsphp80/bin/
 

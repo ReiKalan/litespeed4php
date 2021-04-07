@@ -9,7 +9,7 @@ services:
         - LSPHP_VERSION=${LSPHP_VERSION}
     ports:
       - "10070:10070"
-      - "10088:10088"
+      - "10080:10080"
     volumes:
       - ./www:/var/www
       - ./config/httpd_config.conf:/usr/local/lsws/conf/httpd_config.conf
